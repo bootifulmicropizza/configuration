@@ -1,0 +1,11 @@
+debug: true
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.springframework.web: DEBUG
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://registry-service-1:8761/eureka/,http://registry-service-2:8762/eureka/

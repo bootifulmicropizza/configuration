@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      fail-fast: true
+eureka:
+  instance:
+    prefer-ip-address: true

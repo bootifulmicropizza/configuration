@@ -1,0 +1,6 @@
+server:
+  port: 9004
+spring:
+  jpa:
+    generate-ddl: true
+    hibernate.ddl-auto: create
